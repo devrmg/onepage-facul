@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<meta http-equiv="X-UA-Compatible" content="ie=edge">
 					<link rel="stylesheet" type="text/css" href="css/style.css" />
-					<link rel="icon" href="images/ed.jpg">
+					<link rel="icon" href="ed.jpg">
 						<title>Connect Informática - Assistência Técnica e Manutenção - Com o melhor atendimento! Traga seu computador, celular, tablet, impressora! Qualidade, Agilidade, Solução.  </title>
 						<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 							<link rel='stylesheet' href='css/slider_multiple.css' />
@@ -15,21 +15,82 @@
 }
 
 body{
-
-    margin: 0px 35px 0px 35px;
+   
+    margin: 0px 15px 0px 15px;
     background-color: #fffff;
     	box-shadow: 0px 1px 10px rgba(0, 0, 0, .5);
+}
+
+
+/* ZOom das imagens*/
+.zoom {
+  padding: 10px;
+  
+  transition: transform .3s; /* Animation */
+  
+  
+  
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* ZOom das imagens*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(231, 76, 60);; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4700; 
+}  
+.flo {
+    color:#884646;
+    background-color:#f0d8d8;
+    border: 1px solid #f0bbbb;
 
 }
+
+.flu {
+    color:#913d26;
+    background-color:#f7d7cd;
+    border: 1px solid #fc5526;
+    padding:12px;
+    margin-bottom:2px;
+
+}
+.fla {
+    float:right;
+
+}
+
+
+
+
 </style>
-				</head>
+						</head>
 						<body>
 							<header>
 								<div class="container">
 									<div class="row">
 										<div class="col mt-4  text-center ">
 											<a href="index.html " class=" responsive">
-												<img class="scale-up-center img-thumbnail shadow-lg p-3 mb- bg-white rounded" class="img-thumbnail img-responsive shadow p-3 mb-3 bg-white rounded"src="images/edd.jpg" width="500px" height="107" alt="/"
+												<img class="scale-up-center img-thumbnail shadow-lg p-3 mb- bg-white rounded" class="img-thumbnail img-responsive shadow p-3 mb-3 bg-white rounded"src="edd.jpg" width="500px" height="107" alt="/"
 												</a>
 											</div>
 										</div>
@@ -37,18 +98,18 @@ body{
 								</header>
 								<div class="container">
 									<div class="col mt-4 text-center shadow p-3 mb-3 bg-white rounded mr-4">
-										<a class="letra ml-2" href="https://api.whatsapp.com/send?phone=5511977226679" target="_blank">
-											<img class="mt-2 responsive"  src="images/wh.png"  width="30" height="30">
+										<a class="letra ml-2" ml-2" href="https://api.whatsapp.com/send?phone=5511977226679" target="_blank">
+											<img class="mt-2 responsive"  src="wh.png"  width="30" height="30">
 											</a>
-											<a class="letra ml-2"  href="https://api.whatsapp.com/send?phone=5511977226679" target="_blank">
+											<a class="letra ml-2" ml-2" href="https://api.whatsapp.com/send?phone=5511977226679" target="_blank">
 												<u>    (11) 97722-6679</u>
 											</a>
-											<img class="mt-2 responsive" src="imagens/te.png" alt="" width="30" height="30">
+											<img class="mt-2 responsive" src="te.png" alt="" width="30" height="30">
 												<a class="letra ml-2" >
 													<u>(11) 00000-0000</u>
 												</a>
 												<br>
-													<img class=" mt-2 responsive"src="images/bla.png"  width="30" height="30">
+													<img class=" mt-2 responsive"src="bla.png"  width="30" height="30">
 														<a class="ml-2 ">
 															<a class="letra ml-2" >con@gmail.com
 															</u>
@@ -60,7 +121,6 @@ body{
 										<section class="welcome animatedParent mt-2 mb-4 text-center" data-sequence="400">
 											<div class="container">
 												<div class="row">
-
 													<div class="col-sm-12 animated fadeInRight go" data-id="1">
 														<div class="shadow p-3   rounded  alert alert-info text-center" style="margin-bottom: 0">
 															<h4>SEU COMPUTADOR, CELULAR, TABLET, IMPRESSORA ESTÁ COM ALGUM PROBLEMA?</h4>
@@ -72,35 +132,34 @@ body{
 										</section>
 										<div class="container">
 											<div class="row">
-												<div class="col mt-3">
+												<div class="col mt-3 ">
 													<div class="alert alert-warning alert-dismissible fade show" role="alert">
-														<h2>SOBRE:</h2>
-														<p> A
+														<h3><strong>Sobre:</strong></h3>
+														<p> A 
 															<strong>
-																<font color="#E74C3C">Con</font>nect Informática
-															</strong> está no mercado a 5 anos, localizada na cidade de Minas Novas - MG. Estamos preparados para oferecer um serviço de manutenção e assistência de
+																<font color="#E74C3C">Con</font>nect Informática 
+															</strong> está no mercado a 5 anos, localizada na cidade de Minas Novas - MG. Estamos preparados para oferecer um serviço de manutenção e assistência de 
 															<strong> qualidade</strong> para o seu produto eletrônico, trabalhamos com peças e acessórios originais. Assim, garantimos a
-															<strong> satisfação</strong> e o bom atendimento de nossos clientes, visando sempre uma parceria de respeito e
+															<strong> satisfação</strong> e o bom atendimento de nossos clientes, visando sempre uma parceria de respeito e 
 															<strong>confiança</strong>.
 														</p>
+                                                        <hr class="text-center" style="width: 100%; color: black; height: 2px; background-color:black;" />
 														<div class="container">
 															<div class="row">
-																<div class="col">
-																	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																<div class="col ">
+																	<div id="myCarousel" class="carousel slide  " data-ride="carousel">
 																		<!-- Indicators -->
-																		<ol class="carousel-indicators ">
+																		<ol class="carousel-indicators   ">
 																			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 																			<li data-target="#myCarousel" data-slide-to="1"></li>
-                   <li data-target="#myCarousel" data-slide-to="2"></li>
-                   <li data-target="#myCarousel" data-slide-to="3"></li>
-                   <li data-target="#myCarousel" data-slide-to="4"></li>
-                   <li data-target="#myCarousel" data-slide-to="5"></li>
+																			<li data-target="#myCarousel" data-slide-to="2"></li>
+                                                                          
 																		</ol>
-																		<h2>SERVIÇOS REALIZADOS:</h2>
-                  <!-- Wrapper for slides -->
+																		<h3><strong>Serviços:</strong></h3>
+                  										<!-- Wrapper for slides -->
+                                                                        
+                                                                    
                   
-                  
-
 																		<div class="carousel-inner mt-4">
 																			<div class="item active">
 																				<img class="zoom img-thumbnail img-responsive "src="demo/img/1.jpg"  alt="Los Angeles">
@@ -119,41 +178,12 @@ body{
 																							<div class="alert alert-primary" role="alert">
   Um simples alerta primary. Olha só!
 </div>
-		</div>
-																					<div class="item">
-																						<img class="zoom img-thumbnail img-responsive " src="demo/img/4.jpg"  alt="New York">
-																							<div class="alert alert-primary" role="alert">
-  Um simples alerta primary. Olha só!
-</div>
-		</div>
-																					<div class="item">
-																						<img class="zoom img-thumbnail img-responsive " src="demo/img/5.jpg"  alt="New York">
-																							<div class="alert alert-primary" role="alert">
-  Um simples alerta primary. Olha só!
-</div>
-		</div>
-																					<div class="item">
-																						<img class="zoom img-thumbnail img-responsive " src="demo/img/6.jpg"  alt="New York">
-																							<div class="alert alert-primary" role="alert">
-  Um simples alerta primary. Olha só!
-</div>
-																						</div>
-                     </div>
-                     
-                     <!--<div class="carousel-item">
-                      <img src="demo/img/1.jpg" alt="...">
-                      <img src="demo/img/2.jpg" alt="...">
-                      <img src="demo/img/3.jpg" alt="...">
-                      <img src="demo/img/4.jpg" alt="...">
-                      <img src="demo/img/5.jpg" alt="...">
-                      <img src="demo/img/6.jpg" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>...</h5>
-                        <p>...</p>
-                      </div>
-                    </div> -->
+	
+                                                                                    		
+											</div>
+										</div>
 																					<!-- Left and right controls -->
-																					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+																					<a class="left carousel-control " href="#myCarousel" data-slide="prev">
 																						<span class="glyphicon glyphicon-chevron-left"></span>
 																						<span class="sr-only">Previous</span>
 																					</a>
@@ -166,21 +196,22 @@ body{
 																		</div>
 																	</div>
 																</div>
-																<div class="flo rounded text-center">
-																	<h1 class=" p-1"> COMPROMISSO</h1>
-																	<br>
-																		<h1 class=" p-2">
-																			<strong>QUALIDADE</strong>
-																		</h1>
-																		<br>
-																			<h1 class=" p-1"> AGILIDADE</h1>
+									
+																<div class="flo rounded text-center shadow-lg">
+																	<h1> COMPROMISSO,  <strong>QUALIDADE</strong>, AGILIDADE</h1>
+																	
+																		<h2  class=" mb-2">
+
+<u>Não cobramos taxa de visita!</u></h2>
+<h3><strong>Endereço:</strong> Av. Valdemar César Santos, 243, Minas Novas - MG, 39650-000</h3>
+                                                                    
 																		</div>
 																	</div>
-																	<div class="col mt-3">
+																	<div class="col mt-3  ">
 																		<!-- Inicio Formulário de Contato-->
 																		<link rel="stylesheet" href="formulário_files/formoid1/formoid-solid-red.css" type="text/css" />
 																		<script type="text/javascript" src="formulário_files/formoid1/jquery.min.js"></script>
-																		<form class="formoid-solid-red" style="background-color:#ffffff;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:480px;min-width:150px" method="post">
+																		<form class="formoid-solid-red shadow-lg" style="background-color:#ffffff;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:480px;min-width:150px" method="post">
 																			<div class="title">
 																				<h2>ENTRE EM CONTATO</h2>
 																			</div>
@@ -304,18 +335,23 @@ body{
 																						</div>
 																					</div>
 																				</div>
+                                                                                
+                                                                               
+
 																				<div class="container mt-4">
 																					<div class="row ">
 																						<div class="col-md-6 " >
-																							<div class="flu rounded ">
-																								<h1 class="p-2">RETIRAMOS EM ATÉ 24h!</h1>
+																							<div class="flu rounded shadow-sm   rounded">
+																								<h1 class="p-2 text-center mb-3">RETIRAMOS EM ATÉ 24h!</h1>
 																								<p>Trabalhamos com equipamentos de ponta e apenas peças originais, para que nossos clientes se sintam confortáveis e seguros, sempre visando a melhor qualidade.</p>
 																								<br>
 																								</div>
-																							</div>
-																							<div class="col-md-6 alert alert-success " >
-																								<h1>QUALIDADE E O MELHOR PREÇO!</h1>
-																								<p class="ml-2">Trabalhamos com equipamentos de ponta e apenas peças originais, para que nossos clientes se sintam confortáveis e seguros, sempre visando a melhor qualidade.</p>
+																						</div>
+                                                                               
+																						<div class="col-md-6 " >
+																							<div class="flu rounded mb-3 shadow-sm">
+																								<h1 class="text-center">QUALIDADE E O MELHOR PREÇO!</h1>
+																								<p class="">Trabalhamos com equipamentos de ponta e apenas peças originais, para que nossos clientes se sintam confortáveis e seguros, sempre visando a melhor qualidade.</p>
 																							</div>
 																						</div>
 																					</div>
@@ -327,12 +363,13 @@ body{
 																						<!-- Grid column -->
 																						<div class="col  bg-dark mt-">
 																							<!-- Copyright -->
+                                                                                            <p class="text-center text-white"> Sócios-Proprietários </p>
 																							<div class="container">
 																								<div class="row">
 																									<div class="col mt-4  col-md-6">
 																										<div class="media">
 																											<div class="media-left">
-																												<img src="images/e.jpg" class="img-responsive img-thumbnail media-object" style="width:65px; height:65px" title="Sócio-Proprietário da Connect Informática">
+																												<img src="e.jpg" class="img-responsive img-thumbnail media-object" style="width:65px; height:65px" title="Sócio-Proprietário da Connect Informática">
 																												</div>
 																												<div class="media-body ">
 																													<h6 class="media-heading mt-4 ml-2 text-white" title="Sócio-Proprietário da Connect Informática" >Eustáquio Mendes da Costa</h6>
@@ -342,7 +379,7 @@ body{
 																										<div class="col mt-4 col-md-6 ">
 																											<div class="media">
 																												<div class="media-left">
-																													<img src="images/c.jpg" class="img-responsive img-thumbnail media-object mb-2" style="width:65px; height:65px" title="Sócio-Proprietário da Connect Informática">
+																													<img src="c.jpg" class="img-responsive img-thumbnail media-object mb-2" style="width:65px; height:65px" title="Sócio-Proprietário da Connect Informática">
 																													</div>
 																													<div class="media-body ">
 																														<h6 class="media-heading  mt-4 ml-2 text-white" title="Sócio-Proprietário da Connect Informática">Cesar Mendes da Costa</h6>
@@ -351,7 +388,7 @@ body{
 																											</div>
 																										</div>
 																									</div>
-																									<div class="footer-copyright text-center py-3 bg-dark text-white" >© 2019 Copyright
+																									<div class="footer-copyright text-center py-3 bg-dark text-white" >© 2019 Copyright 
 																										<small>
 																											<a href="https://devrm.wufoo.com/forms/z18bzy5i0xuwpnr/" title="Portfólio" target="_blank" > DevRm </a>
 																										</small>
@@ -364,13 +401,10 @@ body{
 																								<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 																								<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 																								<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-																								<script type="text/javascript">
-var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'
-																									<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow4.png" class="mr-2 " />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('
-																									<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();
-																								</script>
-																								<noscript>Not seeing a
-																									<a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.
-																								</noscript>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow52.png" class="p-4"/>',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+																								
 																							</body>
 																						</html>
