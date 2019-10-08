@@ -34,14 +34,14 @@
   }
 }
 .scale-in-center {
-	-webkit-animation: scale-in-center 20000s infinite ;
-	        animation: scale-in-center 20000s infinite ;
+	-webkit-animation: scale-in-center 20000s ;
+	        animation: scale-in-center 20000s ;
 }
 
 
 .scale-in-center {
-	-webkit-animation: scale-in-center 20000s infinite ;
-	        animation: scale-in-center 20000s infinite ;
+	-webkit-animation: scale-in-center 20000s  ;
+	        animation: scale-in-center 20000s ;
 
 }
 
