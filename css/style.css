@@ -34,15 +34,15 @@
   }
 }
 .scale-in-center {
-	-webkit-animation: scale-in-center 5s infinite ;
-	        animation: scale-in-center 5s infinite ;
+	-webkit-animation: scale-in-center 20000s infinite ;
+	        animation: scale-in-center 20000s infinite ;
 }
 
 
 .scale-in-center {
-	-webkit-animation: scale-in-center 5s infinite ;
-	        animation: scale-in-center 5s infinite ;
-           
+	-webkit-animation: scale-in-center 20000s infinite ;
+	        animation: scale-in-center 20000s infinite ;
+
 }
 
 /**
@@ -112,4 +112,3 @@
 	-webkit-animation: wobble-hor-bottom 2.5s ;
 	        animation: wobble-hor-bottom 2.5s ;
 }
-
