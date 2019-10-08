@@ -1,0 +1,12 @@
+/* @import "variaveis.css"
+
+@azul : 0f0;
+@vermelhor : f00;
+@branco : ffffff;
+
+section {
+  h1 {
+    color:@vermelho ;
+    background:@branco;
+  }
+}
